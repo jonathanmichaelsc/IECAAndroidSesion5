@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_titulo_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo de contenedor Fragment"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv_definicion_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un Fragment representa un comportamiento o una parte de la interfaz de usuario en una FragmentActivity. Puedes combinar varios fragmentos en una sola actividad para crear una IU multipanel y volver a usar un fragmento en diferentes actividades."
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón que reemplaza el título" />
+
+</LinearLayout>
